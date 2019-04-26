@@ -1,0 +1,76 @@
+html{
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+body{
+  padding: 10px 40px;
+  position: relative;
+  text-align: center;
+  background-color: gray;
+}
+
+.info{
+  text-align: center;
+}
+
+
+.title{
+
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+#img:hover{box-shadow: 1px 1px 15px red;}
+
+#img{
+  box-shadow: 1px 1px 15px #fff;
+  position: absolute;
+  top: 75px;
+  right: 45px;
+  float: right;
+  border-radius: 8px;
+}
+
+img:hover{box-shadow: 1px 1px 15px red;}
+
+img{
+  box-shadow: 1px 1px 15px #fff;
+}
+
+.ital{
+  color: red;
+}
+
+p{
+  font-size: 2em;
+  font-weight: 300;
+}
+
+ul{
+  text-align: justify;
+  text-align-last: center;
+  list-style: none;
+  font-size: 1.85em;
+  font-weight: 300;
+}
+
+.link{
+text-align: right;
+font-size: 1.8em
+}
+
+
+a:link{
+  color: #000;
+}
+
+a:visited{
+  color:#000;
+}
+
+a:hover{
+  box-shadow: 1px 1px 15px red;
+}
